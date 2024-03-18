@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    body {
+      display: grid;
+      justify-items: center;
+      align-items: center;
+      height: 100vh;
+    }
+    form {
+      padding: 15px;
+      border: 1px solid black;
+    }
+  </style>
+
+  <body>
+    <form action="" style="display: flex; flex-direction: column; gap: 10px">
+      <h4 style="text-align: center">LOGIN FORM</h4>
+      <div style="display: flex; justify-content: space-between; gap: 20px">
+        <div style="display: flex; flex-direction: column; gap: 5px">
+          <label for="Username">Username</label>
+          <label for="Password">Password</label>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 5px">
+          <input type="text" name="Username" id="Username" />
+          <input type="password" name="Password" id="Password" />
+          <div>
+            <button type="button">Login</button>
+            <button type="reset">Reset</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

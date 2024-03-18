@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+
+  <style>
+    body {
+      display: grid;
+      justify-items: center;
+      align-items: center;
+      height: 100vh;
+    }
+    form {
+      padding: 15px;
+      border: 1px solid black;
+    }
+  </style>
+
+  <body>
+    <form action="#" method="post">
+      <h4>PHIẾU THĂM DÒ Ý KIẾN</h4>
+
+      <label for="hoTen">Họ và tên:</label><br />
+      <input type="text" id="hoTen" name="hoTen" /><br /><br />
+
+      <label>Giới tính:</label><br />
+      <input type="radio" id="nam" name="gioiTinh" value="Nam" />
+      <label for="nam">Nam</label><br />
+      <input type="radio" id="nu" name="gioiTinh" value="Nữ" />
+      <label for="nu">Nữ</label><br /><br />
+
+      <label for="noiSinh">Nơi sinh:</label><br />
+      <select id="noiSinh" name="noiSinh">
+        <option value="TPHCM">TPHCM</option>
+        <option value="Hà Nội">Hà Nội</option>
+        <option value="Đà Nẵng">Đà Nẵng</option>
+        <option value="Cần Thơ">Cần Thơ</option></select
+      ><br /><br />
+
+      <label for="soThich">Sở thích:</label><br />
+      <input type="checkbox" id="docSach" name="soThich" value="Đọc sách" />
+      <label for="docSach">Đọc sách</label><br />
+      <input type="checkbox" id="xemPhim" name="soThich" value="Xem phim" />
+      <label for="xemPhim">Xem phim</label><br />
+      <input type="checkbox" id="choiGame" name="soThich" value="Chơi game" />
+      <label for="choiGame">Chơi game</label><br /><br />
+
+      <label for="yKien">Ý kiến:</label><br />
+      <textarea id="yKien" name="yKien" rows="4" cols="50"></textarea
+      ><br /><br />
+
+      <input type="submit" value="Gửi" />
+      <input type="reset" value="Nhập lại" />
+    </form>
+  </body>
+</html>

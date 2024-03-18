@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Table</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      th,
+      td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      th,
+      tfoot {
+        background-color: #f2f2f2;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th rowspan="3">Họ và tên học sinh</th>
+          <th colspan="2">Năm sinh</th>
+          <th rowspan="3">Điểm TB</th>
+          <th rowspan="3">Xếp loại</th>
+        </tr>
+        <tr>
+          <th>Nam</th>
+          <th>Nữ</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Nguyễn Văn A</td>
+          <td>2005</td>
+          <td>2006</td>
+          <td>8.5</td>
+          <td>Giỏi</td>
+        </tr>
+        <tr>
+          <td>Trần Thị B</td>
+          <td>2004</td>
+          <td>2005</td>
+          <td>7.8</td>
+          <td>Khá</td>
+        </tr>
+        <tr>
+          <td>Lê Văn C</td>
+          <td>2006</td>
+          <td>2007</td>
+          <td>9.2</td>
+          <td>Giỏi</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td colspan="3">Tổng số học sinh đạt</td>
+          <td colspan="3">3 học sinh</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
